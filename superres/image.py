@@ -4,7 +4,7 @@ import os
 
 model = "models/EDSR_x4.pb"
 
-image = "examples/suspect.jpg"
+image = "examples/suspect.jpeg"
 
 modelName = model.split(os.path.sep)[-1].split("_")[0].lower()
 modelScale = model.split("_x")[-1]
